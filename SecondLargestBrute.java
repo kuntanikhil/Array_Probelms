@@ -4,12 +4,7 @@ import java.io.*;
 
 class Codechef
 {
-	public static void main (String[] args) throws java.lang.Exception
-	{
-	int[] arr ={1,1,0,0};
-	System.out.println(Arrays.toString(Largest(arr)));
-
-	}
+	
 	static int[] Largest(int[] arr){
 	    Arrays.sort(arr);
 	    int L1 = arr[arr.length-1];
