@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class Codechef
+class SecondLargestBrute
 {
 	
 	static int[] Largest(int[] arr){
