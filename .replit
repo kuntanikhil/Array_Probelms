@@ -1,3 +1,5 @@
+run = "javac Main.java && java Main"
+
 [agent]
 expertMode = true
 stack = "BEST_EFFORT_FALLBACK"
