@@ -2,11 +2,9 @@ import java.util.*;
 class Main{
   public static void main(String[] args){
     
-    int[] arr1 = { 3,5,6,7,8};
-    int[] arr2 = {5,2,3,1};
-    CheckIfSorted obj = new CheckIfSorted();
-    obj.CheckSorted(arr1);
-    obj.CheckSorted(arr2);
+    int[] arr ={1,1,2,2,3,3,4,4};
+    RemoveDuplicatesOptimal obj = new RemoveDuplicatesOptimal();
+    System.out.println(obj.RemoveDuplicates(arr));
     
   }
 }
