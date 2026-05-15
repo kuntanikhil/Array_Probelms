@@ -1,8 +1,12 @@
-import java.util.Arrays;
+import java.util.*;
 class Main{
   public static void main(String[] args){
-    SecondLargestBrute obj = new SecondLargestBrute();
-    int[] arr = { 7,9,2,4,3,1};
-    System.out.println(Arrays.toString(obj.Largest(arr)));
+    
+    int[] arr1 = { 3,5,6,7,8};
+    int[] arr2 = {5,2,3,1};
+    CheckIfSorted obj = new CheckIfSorted();
+    obj.CheckSorted(arr1);
+    obj.CheckSorted(arr2);
+    
   }
 }
